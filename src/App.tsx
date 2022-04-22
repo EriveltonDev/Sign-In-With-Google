@@ -24,7 +24,7 @@ function App() {
 
       {islogged ? '' :
           <GoogleLogin
-            clientId='354798428756-2i8k0g90f26qre94om06ikv0o8omlu0f.apps.googleusercontent.com'
+            clientId='Use your clientID here'
             buttonText='Logue com sua conta do Google'
             onSuccess={responseGoogle}
             onFailure={responseGoogle}
